@@ -17,9 +17,6 @@
 {
     // this will be run every frame.
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
-}
-
-
     // Increment the time since the last obstacle was added
     timeSinceObstacle += delta; // delta is approximately 1/60th of a second
     
@@ -32,6 +29,10 @@
         // Then reset the timer.
         timeSinceObstacle = 0.0f;
     }
+
+}
+
+
 
 
 // put new methods here
